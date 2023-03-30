@@ -1,4 +1,4 @@
-let list = document.querySelector('.resetul');
+let list = document.querySelector('.result');
 let li = document.querySelector('.showul')
 const boutonReset = document.querySelector('.reset');
 const boutonShow = document.querySelector('.show');
