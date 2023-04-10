@@ -25,7 +25,8 @@ function functionListe() {
         for (let i = 0; i < liste.length; i++) {
             const element = liste[i];
             if (liste[i]) {
-                let result = element.split('');
+                let result = element.split(':');
+                console.log(result);
                 let nouveauLi = document.createElement('li');
                 nouveauLi.textContent = result;
                 affichageliste.appendChild(nouveauLi);
